@@ -1,0 +1,18 @@
+# Build
+build/
+managed_components/
+dependencies.lock
+
+# IDE / Cache
+.cache/
+.vscode/
+__pycache__/
+
+# Third-party binaries
+ffmpeg/
+
+# Generated config (sdkconfig.defaults are kept, sdkconfig itself is generated)
+sdkconfig
+
+# Logs
+log.txt
